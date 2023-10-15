@@ -75,7 +75,9 @@ main{
     border-radius: 10px;
     
 }
-
+section {
+     margin-top: 130px;
+ }
 
 /* =============about section style============= */
 .about{
@@ -115,11 +117,9 @@ margin-bottom: 30px;
         font-weight: 400;
     }
 
-    /* === what i do style */
+    /* =========what i do style=============== */
     
-    .what-i-do{
-        margin-top: 130px;
-    }
+   
     .skills-container{
         display: flex;
         gap: 24px;
@@ -139,3 +139,41 @@ margin-bottom: 30px;
     .skill-description{
        color: #757575; 
     }
+
+    /* ==============Resume styles================ */
+
+    .resume-content{
+        margin-top: 113px;
+        display: flex;
+        gap: 24px;
+    }
+    .resume-title{
+        font-size: 30px;
+        font-weight: 700;
+        color: #474747;
+    }
+         .resume-item {
+             margin-top: 30px;
+             margin-bottom: 30px;
+         }
+    .resume .title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom:10px ;
+    
+    }
+    .resume .sub-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+    }
+ .resume .description {
+    color: #757575;
+ }
+.resume-btn{
+margin-top: 50px;
+text-align: center;
+}
