@@ -83,16 +83,34 @@ margin-top: 130px;
 background: #FFF8F3;
 border-radius: 10PX;
 padding: 130px 150px;
+text-align: center;
 }
 .section-title{
-text-align: center;
+
+font-weight: 700;
+font-size: 35px;
 margin-bottom: 30px;
 
 }
 .section-description{
-    text-align: center;
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 
+    }
+    .about-info-container{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .info-title{
+        color: var(--Dark-03, #757575);
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .info-descriftion{
+        font-size: 20px;
+        color: var(--Dark-02, #474747);
+        font-weight: 400;
     }
