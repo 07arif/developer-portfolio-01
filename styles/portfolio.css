@@ -188,8 +188,9 @@ text-align: center;
 .contact .section-title{
     text-align:left;
 }
-.contact p{
-    padding-bottom:25px;
+.contact-description{
+    padding-bottom: 28px;
+    text-align: left;
 }
 .contact input[type="text"],input[type="email"], textarea{
     margin-bottom: 40px;
